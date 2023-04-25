@@ -1,0 +1,12 @@
+output:
+  c:
+    library_name: faunadb_flutter
+    path: lib/c/
+  dart:
+    path: lib/faunadb_flutter.dart
+    structure: single_file
+
+source_path:
+  - "lib/java"
+classes:
+  - "faunadb.Example"
